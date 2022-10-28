@@ -1,0 +1,23 @@
+@import 'styles/_variables';
+.label{
+  color: $color-Label;
+  font-size: $font-size;
+}
+.input{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 18px;
+    padding: 14px;
+    font-size: $font-size;
+    color: $color-text;
+    background-color: $grey;
+    border: none;
+    outline: none;
+    border-radius: $border-radius;
+
+    &:focus {
+        color: $color-text;
+        box-shadow: none
+      }
+}

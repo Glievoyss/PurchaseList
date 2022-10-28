@@ -1,0 +1,4 @@
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const NOT_ENTER_USER = "NOT_ENTER_USER";
+export const SET_USER_LOGOUT = "SET_USER_LOGOUT";
+export const NOT_FIND_USER = "NOT_FIND_USER";

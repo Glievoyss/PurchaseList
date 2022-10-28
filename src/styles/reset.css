@@ -1,0 +1,10 @@
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  list-style-type: none;
+}
+
+.MuiPaper-root {
+  box-sizing: border-box;
+}

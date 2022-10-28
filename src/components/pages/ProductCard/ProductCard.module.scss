@@ -1,0 +1,28 @@
+@import 'styles/_variables';
+
+.wrapPage{
+   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nameCard{
+    margin-left: 14px;
+    color: $color-text;
+    
+}
+
+.list{
+    padding: 0 0 0 24px;
+}
+
+.product{
+    padding: 0;
+    margin-bottom: 16px;
+    list-style-type:none
+ }
+
+ 

@@ -1,0 +1,17 @@
+@import 'styles/_variables';
+
+.label{
+  display: flex;
+  align-items: center;
+  color: $color-Label;
+  font-size: $font-size;
+}
+
+.icon{
+  margin-right: 16px;
+}
+
+.visually_hidden,
+.visually_hidden:not(:focus):not(:active) {
+  @extend %visually_hidden;
+}
