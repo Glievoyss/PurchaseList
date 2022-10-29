@@ -1,0 +1,38 @@
+@import 'styles/_variables';
+
+.card{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 60px;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 14px 30px;
+  font-size: $font-size+10px;
+  color: $color2-text;
+  background-color: $grey;
+  border: none;
+  outline: none;
+  border-radius: $border-radius;
+
+  &_isCheked {
+    background-color: $dark-grey;
+    color: $color-button;
+  }
+}
+
+.marker{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: $bg;
+
+  top: 15px;
+  right: 15px;
+  border-radius: 50%;
+
+  &_isCheked{
+    background-color: $color-button;
+  }
+}

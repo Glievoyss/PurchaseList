@@ -10,14 +10,14 @@
     margin-bottom: 18px;
     padding: 14px;
     font-size: $font-size;
-    color: $color-text;
+    color: $color2-text;
     background-color: $grey;
     border: none;
     outline: none;
     border-radius: $border-radius;
 
     &:focus {
-        color: $color-text;
+        color: $color2-text;
         box-shadow: none
       }
 }

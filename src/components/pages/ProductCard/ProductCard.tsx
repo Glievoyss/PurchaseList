@@ -22,6 +22,7 @@ const ProductCard: React.FC = ()=> {
   }
 
   return (
+    <>
     <section className={classes.wrapPage}>
        <div className={classes.nav}>
           <ButtonCircle icon='<' className={classes.submit} onChange={handleForvard}/>
@@ -41,6 +42,7 @@ const ProductCard: React.FC = ()=> {
         )}
       </ul>  
     </section>
+    </>
   );
 }
 

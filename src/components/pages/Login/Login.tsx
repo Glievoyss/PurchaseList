@@ -18,7 +18,7 @@ const Login: React.FC = ()=> {
     }, [])
 
     const onSubmit = ()=> {
-      history.push('/product-card')
+      history.push('/cards')
     }
 
   return (
