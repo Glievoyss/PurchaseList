@@ -1,6 +1,7 @@
 @import "styles/_variables";
 
 body {
+  box-sizing: border-box;
   background-color: $bg;
   max-width: 300px;
   margin: 0 auto;

@@ -9,6 +9,16 @@
     align-items: center;
 }
 
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: $color-button;
+}
+
 .nameCard{
     margin-left: 14px;
     color: $color-text;

@@ -17,7 +17,7 @@ const ProductCard: React.FC = ()=> {
     setProducts(cardMok.products);
   }, []);
 
-  const handleForvard = () =>{
+  const handleBack = () =>{
     // повернутись до списку карток закупки
   }
 
@@ -25,7 +25,7 @@ const ProductCard: React.FC = ()=> {
     <>
     <section className={classes.wrapPage}>
        <div className={classes.nav}>
-          <ButtonCircle icon='<' className={classes.submit} onChange={handleForvard}/>
+          <a className={classes.back} onChange={handleBack} href={'/cards'}>{'<'}</a>
           <h3 className={classes.nameCard}>{cardMok.comment}</h3> 
        </div>
        <ul className={classes.list}>
